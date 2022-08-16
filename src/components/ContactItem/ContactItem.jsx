@@ -15,6 +15,7 @@ const ContactItem = ({ name, number, id }) => {
     });
   if (isDeleting) {
     del();
+    return;
   }
 
   return (
